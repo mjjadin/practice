@@ -1,9 +1,10 @@
 Pinteresting::Application.routes.draw do
+  devise_for :users
   root "pages#home"
   get "about" => "pages#about" #creats about_path
   get "tutors" => "pages#tutors"
   get "schools" => "pages#schools"
-  get "signup" => "pages#signup"
+  get "login" => "pages#login"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

@@ -12,7 +12,7 @@ class PagesController < ApplicationController
 	
 	end
 
-	def signup
+	def login
 	end
 
 
